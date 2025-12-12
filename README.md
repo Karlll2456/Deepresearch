@@ -6,6 +6,24 @@ Check out the demo [here](https://x.com/nickscamara_/status/1886459999905521912)
 
 ![Open Deep Research Hero](public/open-hero.png)
 
+## 🚀 Quick Start
+
+```bash
+# 1. Install dependencies
+pnpm install
+
+# 2. Copy environment file and add your API keys
+cp .env.example .env
+# Edit .env and add your OPENAI_API_KEY and FIRECRAWL_API_KEY
+
+# 3. Run the development server
+pnpm dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+**Note:** A basic `.env` file is already included. For full functionality, update it with your API keys. See [SETUP.md](./SETUP.md) for detailed setup instructions.
+
 ## Features
 
 - [Firecrawl](https://firecrawl.dev) Search + Extract
